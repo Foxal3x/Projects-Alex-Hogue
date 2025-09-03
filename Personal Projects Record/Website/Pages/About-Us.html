@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">  
+  <style>
+    html, body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .contributor{
+      font-size: 96px;
+      font-weight: bold;
+      font-family: Bebas Neue,Arial;
+      margin-top: 300px;
+    }
+
+    .about-us {
+      font-size: 96px;
+      font-weight: bold;
+      font-family: Bebas Neue,Arial;
+    }
+
+    .circle-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: rgb(31, 31, 32);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 10px; 
+    }
+
+    .info {
+      font-size: 24px;
+      font-family: Playfair Display,'Times New Roman';
+      color: rgb(83, 80, 80);
+      white-space: pre-wrap;
+    }
+
+    .info2 {
+      font-size: 36px;
+      font-family: Playfair Display,'Times New Roman';
+      margin-bottom: 80px;
+      color: rgb(31, 31, 32);
+    }
+
+    .circle-img{
+      width: 180px; 
+      height: 180px; 
+      border-radius: 50%;
+    }
+
+    .easter-egg{
+      width: 180px; 
+      height: 180px; 
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .contact-info {
+      font-size: 24px;
+      font-family: Playfair Display,'Times New Roman';
+      color: rgb(83, 80, 80);
+      margin: 0;
+    }
+
+    .tooltip .tooltiptext  {
+      visibility: hidden;
+      background-color: rgb(31, 31, 32);
+      color: white;
+      text-align: center;
+      padding: 5px;
+      border-radius: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s, visibility 0s linear 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      transition-delay: 0s;
+    }
+
+    .tooltip {
+      font-family: Bebas Neue,Arial;
+      padding-right: 50px;
+      font-size: 30px;
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: rgb(31, 31, 32);
+    }
+    .tooltip:hover{
+      color: rgb(239, 35, 12);
+    }
+
+
+        h1{
+          font-family: Bebas Neue,Arial;
+          font-weight: bold;
+        }
+        a{
+          font-family: Bebas Neue,Arial;
+          font-weight: bold;
+        }
+        body {
+            font-family: Playfair Display,'Times New Roman';
+            color: rgb(31, 31, 32);
+        }
+        .c {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .art-piece {
+            background-color:rgb(248, 249, 253);
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .art-piece img {
+            max-width: 400px;
+            height: auto;
+        }
+        .description {
+            margin-top: 10px;
+        }
+
+    </style>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="about-us">ABOUT US</h1>
+    <div class="circle-container">
+      <div class="circle">
+        <img src="images/About-Us-Alex.jpg" alt="Profile Picture" class="easter-egg"  onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+      </div>
+    </div>
+    <p class="info"><strong>Alex Hogue</strong>
+Founder of Create With Limits
+Author of the Hero Graphic Novel
+Student at Plano West Senior High School
+A tomato</p>
+  <p class="contact-info">Contact Info: <span class="tooltip" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+    Here
+    <span class="tooltiptext">
+      createwithlimits@gmail.com
+    </span>
+  </span></p>
+    <p class="info2">"Save The Cat"</p>
+
+
+
+    <div class="circle-container">
+      <div class="circle">
+        <img src="images/About-Us-Mother.png" alt="Profile Picture" class="circle-img">
+      </div>
+    </div>
+
+    <p class="info"><strong>Chu Xue</strong>
+Founder of the Single Mother Project
+the best Mom</p>
+    <p class="info2">Something Deep</p> 
+    
+    
+    <h1 class="contributor">Contributors</h1>
+
+
+    <div class="circle-container">
+      <div class="circle">
+        <img src="images/About-Us-Sarah.png" alt="Profile Picture" class="circle-img">
+      </div>
+    </div>
+    <p class="info"><strong>Sarah Yan</strong>
+Artist, Author of Hero
+Senior Student in Minnesota
+Wants to make the audience feel healed by her expressions
+A living potato</p>
+    <p class="info2">"Capture the moment."</p>
+    
+
+    <h1 class="about-us">EVENTS</h1>
+
+    <div class="c">
+    <h1>LUCID DREAM ART EXHIBIT</h1>
+    <p>
+      My "Lucid Dream" personal charity digital art exhibition with my mother took place from October 21st to November 2023, marking the debut event for Create With Limits! Through this gallery, we aimed to draw attention to the unique social group of "single-parent families" while also helping children in special circumstances grow up happily and confidently. All the proceeds from this exhibition were donated to the children at the "Shaanxi AiJiaBei Social Care Promotion Center." The sales of the "Hero" comics on-site were also contributed to the funding of Create With Limits' single mother project.
+      <br><br>
+With an attendance of up to 500+ people, we raised a generous amount of $500+, leaving a profoundly positive impact on local children and their families. 
+<br><br>
+One mother shared her daughter's description of the exhibition: "Big brother's artwork is fantastic, and after reading the explanations, I was so moved. I think Mom is the greatest person in the world!" She then hugged me tightly with tears in her eyes!
+    </p>
+
+    <div class="section">
+        <div class="art-piece">
+            <img src="Lucid-Dream-Images/1.1.JPG" alt="Artwork 1">
+            <img src="Lucid-Dream-Images/1.2.JPG" alt="Artwork 1">
+            <img src="Lucid-Dream-Images/1.3.JPG" alt="Artwork 1">
+            <img src="Lucid-Dream-Images/1.4.JPG" alt="Artwork 1">
+        </div>
+
+        <div class="art-piece">
+            <img src="Lucid-Dream-Images/2.1.JPG" alt="Artwork 2">
+            <img src="Lucid-Dream-Images/2.2.JPG" alt="Artwork 2">
+            <img src="Lucid-Dream-Images/2.3.JPG" alt="Artwork 2">
+            <img src="Lucid-Dream-Images/2.4.JPG" alt="Artwork 2">
+        </div>
+        
+        <div class="art-piece">
+          <img src="Lucid-Dream-Images/3.1.JPG" alt="Artwork 3">
+          <img src="Lucid-Dream-Images/3.2.JPG" alt="Artwork 3">
+          <img src="Lucid-Dream-Images/3.3.JPG" alt="Artwork 3">
+          <img src="Lucid-Dream-Images/3.4.JPG" alt="Artwork 3">
+          <img src="Lucid-Dream-Images/3.5.JPG" alt="Artwork 3">
+      </div>
+
+
+      <div class="art-piece">
+        <img src="Lucid-Dream-Images/4.1.JPG" alt="Artwork 4">
+        <img src="Lucid-Dream-Images/4.2.JPG" alt="Artwork 4">
+        <img src="Lucid-Dream-Images/4.3.JPG" alt="Artwork 4">
+        <img src="Lucid-Dream-Images/4.4.JPG" alt="Artwork 4">
+        <img src="Lucid-Dream-Images/4.5.JPG" alt="Artwork 4">
+
+    </div>
+
+    </div>
+    
+    <div>
+        <span class="tooltip" onclick="window.location.href='https://news4g.xiancity.cn/system/2023/10/24/031099294.shtml'">
+          News Report 1
+        </span>
+        <span class="tooltip" onclick="window.location.href='https://xafbapp.xiancn.com/app/template/displayTemplate/news/newsDetail/50817/6792270.html?isShare=true'">
+          News Report 2
+        </span>
+        <span class="tooltip" onclick="window.location.href='https://www.toutiao.com/article/7292541186823307814/?app=news_article&timestamp=1697932002&use_new_style=1&req_id=2023102207464251558C3E1782F9D57DC3&group_id=7292541186823307814&share_token=57E84FB9-2AEF-4160-9534-172820AF0AA3&tt_from=weixin_moments&utm_source=weixin_moments&utm_medium=toutiao_ios&utm_campaign=client_share&wxshare_count=2&source=m_redirect">
+          Head-line
+        </span>
+     </div>
+  </div>
+</div>
+</body>
+</html>

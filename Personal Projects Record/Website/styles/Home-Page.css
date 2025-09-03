@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.opening-page {
+  position: relative;
+  height: 100vh;
+}
+
+.opening-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.ibb.co/C6TCmx2/Opening-Page2.jpg);
+  /*  https://i.postimg.cc/XNZ30cJB/Opening-Poster-Alternative-2.jpg
+  */
+  background-size: cover;
+  background-position: center;
+}
+
+.opening-content {
+  position: absolute;
+  margin-top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgb(223, 42, 19);
+  font-family: Bebas Neue,Arial;
+}
+
+.opening-paragraph {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.Opening-Button {
+  width: 50px;
+  height: auto;
+  animation: moveUpDown 2s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

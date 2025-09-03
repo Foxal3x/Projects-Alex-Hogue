@@ -1,0 +1,36 @@
+.bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  height:100px;
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  overflow: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bottom-subpage{
+  font-family: Bebas Neue,Arial;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(31, 31, 32);
+  width:130px;
+  white-space: pre-wrap;
+  transition:0.3s;
+}
+
+.bottom-subpage:hover{
+  background-color:  rgb(31, 31, 32);
+  color:white;
+  cursor: pointer;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,64 @@
+
+.intro-page {
+  width: 100vw;
+  height: 100vh; 
+  background-color: rgb(248, 249, 253);
+  margin: 30px;
+  padding: 0;
+  overflow: scroll;
+
+}
+
+.intro-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 72px;
+  font-family: Bebas Neue,Arial;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+.intro-story{
+  margin-top:20px ;
+  margin-bottom: 80px;
+  font-family: Playfair Display,'Times New Roman';
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(31, 31, 32);
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+
+.intro-quotes{
+  font-family: Playfair Display,'Times New Roman';
+  color: rgb(31, 31, 32);
+  white-space: pre-wrap;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.intro-image{
+  width:100%
+}
+
+.intro-container{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  padding-top: 0;
+  margin: 0 auto;
+  overflow:auto;
+}
+
+.intro-container-img{
+  flex: 1;
+  min-width: 385px;
+  max-width: 430px;
+}
+
+.intro-container-paragraph{
+  flex:2  ;
+  min-width: 450px;
+}
