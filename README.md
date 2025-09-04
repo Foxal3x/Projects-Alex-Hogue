@@ -10,7 +10,7 @@ Welcome to Alex Hogue's <a style="font-weight:700; text-decoration:none;">Projec
 
 <h1 style="border-bottom:0; padding-bottom:0; margin-bottom:10px;">
   <a href="./Personal Projects Record/Website/" >
-    Generative Art Demos
+    Create With Limits Project
   </a>
 </h1>
 
@@ -32,7 +32,7 @@ For Updated website visit: <a style="font-weight:700; text-decoration:none;" hre
   <img src="./Personal%20Projects%20Record/Art%20Generation/GIFs/boid-3d.gif" height="250" alt="Boid 3D demo">
 </div>
 <div align="center" style="margin-bottom:50px">
-  <img src="./Personal%20Projects%20Record/Art%20Generation/GIFs/quad-split.gif" height="250" alt="Square splitting in quad Tree demo">
+  <img src="./Personal%20Projects%20Record/Art%20Generation/GIFs/quad-squares.gif" height="250" alt="Square splitting in quad Tree demo">
   <img src="./Personal%20Projects%20Record/Art%20Generation/GIFs/Emergence.gif" height="250" alt="Squares Emerging 3D demo">
 </div>
 
